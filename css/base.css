@@ -24,7 +24,7 @@
 .grid-item-b {
   background: #ccc;
   border: 1px solid #111;
-  height: 75px;
+  height: 150px;
   margin: 0em 3em;
   text-align: center;
 }
@@ -32,7 +32,7 @@
 .grid-item-c {
   background: #ccc;
   border: 1px solid #111;
-  height: 75px;
+  height: 125px;
   margin: 0em 3em;
   text-align: center;
 }
@@ -40,7 +40,7 @@
 .grid-item-d {
   background: #ccc;
   border: 1px solid #111;
-  height: 75px;
+  height: 125px;
   margin: 0em 3em;
   text-align: center;
 }
@@ -51,21 +51,20 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(240px, auto);
-  /* align-content: stretch; */
-  /* grid-template-columns: 240px 240px;
-  grid-template-rows: 250px 250px; */
   /* grid-auto-flow: column; */
   background: #ccc;
+  place-content: center;
+  align-content: space-evenly;
+  text-align: center;
   /* border: 1px solid #111; */
   /* height: 250px; */
   margin: 0em 3em;
-  text-align: center;
 }
 
 
 .grid-item-e-f {
   border: 1px solid #111;
-
+  justify-items: center;
 }
 
 .grid-item-g-h {
