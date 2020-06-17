@@ -17,6 +17,7 @@
   background: #ccc;
     border: 1px solid #111;
     height: 75px;
+    line-height: 75px;
     margin: 3em 3em auto;
     text-align: center;
 }
@@ -25,6 +26,7 @@
   background: #ccc;
   border: 1px solid #111;
   height: 150px;
+  line-height: 150px;
   margin: 0em 3em;
   text-align: center;
 }
@@ -33,6 +35,7 @@
   background: #ccc;
   border: 1px solid #111;
   height: 125px;
+  line-height: 125px;
   margin: 0em 3em;
   text-align: center;
 }
@@ -41,6 +44,7 @@
   background: #ccc;
   border: 1px solid #111;
   height: 125px;
+  line-height: 125px;
   margin: 0em 3em;
   text-align: center;
 }
@@ -64,11 +68,13 @@
 
 .grid-item-e-f {
   border: 1px solid #111;
-  justify-items: center;
+  line-height: 240px;
 }
 
 .grid-item-g-h {
   border: 1px solid #111;
+  line-height: 240px;
+
 }
 
 
@@ -77,6 +83,7 @@
   background: #ccc;
   border: 1px solid #111;
   height: 80px;
+  line-height: 80px;
   margin: auto 3em 3em;
   text-align: center;
 }
